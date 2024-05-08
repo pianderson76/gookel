@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.center {
+    position: absolute;
+    top: 3%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#video {
+    margin-top: 20px;
+    position: relative; /* Adicione esta linha para posicionar o vídeo */
+}
+
+#player {
+    width: 850px; /* Aumente a largura do vídeo */
+    height: 490px; /* Aumente a altura do vídeo */
+    position: absolute; /* Adicione esta linha para mover o vídeo */
+    top: 50px; /* Mova o vídeo 50px para baixo */
+    left: 30px; /* Mova o vídeo 100px para a direita */
+}
+
+#video-text {
+    position: absolute;
+    top: 550px; /* Ajuste conforme necessário para posicionar o texto abaixo do vídeo */
+    left: 99px; /* Ajuste conforme necessário para alinhar o texto com o vídeo */
+    font-size: 20px; /* Aumente o tamanho da fonte conforme necessário */
+}
+
